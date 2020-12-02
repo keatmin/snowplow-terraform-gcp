@@ -1,0 +1,15 @@
+{
+    "schema": "iglu:com.snowplowanalytics.snowplow/referer_parser/jsonschema/2-0-0",
+    "data": {
+        "vendor": "com.snowplowanalytics.snowplow",
+        "name": "referer_parser",
+        "enabled": true,
+        "parameters": {
+            "database": "referers-latest.json",
+            "internalDomains": [
+                "internal.domain.name"
+            ],
+            "uri": "gs://{temp-bucket-name}"
+        }
+    }
+}
